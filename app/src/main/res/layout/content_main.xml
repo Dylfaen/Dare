@@ -16,14 +16,14 @@
     <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Get streaming"
+            android:text="@string/get_streaming_button_text"
             android:id="@+id/get_streaming_button" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
             android:layout_marginTop="201dp"
             android:onClick="getStreaming"/>
     <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Get viewing"
+            android:text="@string/get_viewing_button_text"
             android:id="@+id/get_viewing_button"
             android:onClick="getViewing" android:layout_below="@+id/get_streaming_button"
             android:layout_centerHorizontal="true"/>
